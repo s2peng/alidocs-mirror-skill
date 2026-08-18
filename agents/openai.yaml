@@ -1,0 +1,7 @@
+interface:
+  display_name: "钉钉知识库镜像"
+  short_description: "镜像钉钉知识库并保存微信推文 PDF"
+  default_prompt: "Use $alidocs-mirror to mirror a 钉钉/阿里文档知识库 link into a local folder, preserve folders, and save 微信推文 as PDF."
+
+policy:
+  allow_implicit_invocation: true
