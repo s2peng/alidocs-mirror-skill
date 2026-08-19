@@ -12,6 +12,26 @@
 
 ## 安装方式
 
+### 让 Codex 从 GitHub 安装
+
+可以直接把下面这段发给 Codex：
+
+```text
+$skill-installer 请从 GitHub 安装这个 Codex Skill：
+https://github.com/s2peng/alidocs-mirror
+
+说明：
+- 这个仓库根目录就是 Skill 目录
+- 安装路径 path 用 `.`
+- 安装后的 Skill 名称用 `alidocs-mirror`
+- 安装到默认的 Codex skills 目录
+- 安装完成后告诉我下一轮怎么触发使用
+```
+
+安装完成后，下一轮对话即可使用 `$alidocs-mirror` 触发。
+
+### 手动安装
+
 把整个仓库目录安装到 Codex 的 skills 目录下，并确保文件夹名是 `alidocs-mirror`。
 
 Windows 示例：
